@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing & cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases and large data
+*.duckdb
+*.db
+data/raw/
+data/cache/
+*.xlsx
+*.zip
+# Keep sample datasets tracked
+!data/sample/*.csv
+
+# Environment & IDE
+.env
+.venv
+env/
+venv/
+.idea/
+.vscode/
+
+# Streamlit local state
+.streamlit/

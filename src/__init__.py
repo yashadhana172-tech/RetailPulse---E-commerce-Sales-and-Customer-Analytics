@@ -1,0 +1,3 @@
+"""
+RetailPulse - E-commerce Sales and Customer Analytics package.
+"""
